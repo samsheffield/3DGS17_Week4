@@ -10,6 +10,7 @@ public class PunchScaleOnClick : MonoBehaviour
 
     private void OnMouseDown()
     {
+        Debug.Log("Hang in there.");
         transform.DOPunchScale(new Vector3(strength, strength, strength), duration);
     }
 }
