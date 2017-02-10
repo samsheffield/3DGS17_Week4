@@ -11,5 +11,6 @@ public class PunchScaleOnClick : MonoBehaviour
     private void OnMouseDown()
     {
         transform.DOPunchScale(new Vector3(strength, strength, strength), duration);
+        Debug.Log("HELLO");
     }
 }
