@@ -12,5 +12,6 @@ public class PunchScaleOnClick : MonoBehaviour
     {
         Debug.Log("Hang in there.");
         transform.DOPunchScale(new Vector3(strength, strength, strength), duration);
+        Debug.Log("HELLO");
     }
 }
